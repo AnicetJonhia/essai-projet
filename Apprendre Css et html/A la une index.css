@@ -1,0 +1,21 @@
+body { 
+    background-color: rgb(193, 193, 212);
+}
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-collapse: separate;
+    margin-top: 5%;
+    width: 50%;
+    background-color: rgb(72, 72, 206);
+    font-style: italic;
+    text-shadow: 2px 2px 1px yellowgreen;
+}
+
+h2 {
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Une formulaire d'inscription 
+        </title>
+        <link rel="stylesheet" href="indexcss.css">
+    </head>
+    <body>
+
+        <div id="formulaire">
+
+            <header>
+                <p class="titleOfFormulaire">Your favorite agency.</p>
+                <p class="instrucion">Complete with your coordinates the corresponding cases.</p> 
+            </header>
+
+            <section>
+                <form action="inscription">
+                    <p> Sex: 
+                        <input type="radio" name="sexWoman" id="sexWoman" value="Woman">Woman </input>
+                        <input type="radio" name="sexMan" value="sexMan" id="sexMan">Man</input>
+                    </p>
+                    <p>Name: 
+                        <input type="text" name="name" placeholder="In upper case" required>
+                    </p> 
+                    <p>First Name: 
+                        <input type="text" name = firstName placeholder="In lower case but started in a captital letter"required>
+                    </p>
+                    <p>Date of birth: 
+                        <label for="date of birth" aria-required="true" ></label>
+                        <input type="date" name="date of birth" id="date of birth" required>
+                    </p>
+                    <p>Age: 
+                        <input type="text" name="age" placeholder="between 18 and 45 years old" required>
+                    </p> 
+                    <p>Email: 
+                        <input type="mailto"  name="mailto" placeholder="name@gmail.com" required>
+                    </p> 
+                    <p>Password: 
+                        <input type="password" name="password" placeholder="1704ab" required>
+                    </p>
+                    <p>Password confirmation: 
+                        <input type="password" name="passwordConfirmation" placeholder="1704ab" required>
+                    </p>
+                    <p>Nationality:
+                        <select name="nationality">
+                            <option value="0">British</option>
+                            <option value="1">Americain</option>
+                            <option value="2">Japan</option>
+                            <option value="3">Chinese</option>
+                            <option value="4">French</option>
+                            <option value="5">Italian</option>
+                            <option value="6">Rusia</option>
+                            <option value="7">Corean</option>
+                            <option value="8">Germany</option>
+                            <option value="9">Spain</option>
+                        </select>
+                    </p>
+                </form>
+                <input type="button" value="Validate" name="validation">
+                <input type="button" value="Restart" name="restarting" >
+                
+                <form action="answerInsciption">
+                    <p>Your inscription answer: <input type="text" name="answer" ></p>
+                </form>
+            </section>
+        </div>
+        
+        <script src="indexjs.js"></script>
+    </body>
+</html>

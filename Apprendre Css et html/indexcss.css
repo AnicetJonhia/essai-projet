@@ -1,0 +1,27 @@
+body{
+    background-color: silver;
+}
+
+
+p {
+    border-radius: 5px;
+    font-size: x-large;
+    font-style: italic;
+
+    
+}
+
+input  {
+    background-color: lavender;
+    line-height: 18px;
+    font-size: italic ;
+    vertical-align: middle;
+}
+
+footer{
+    top: 50%;
+    text-align: normal;
+
+}
+
+
